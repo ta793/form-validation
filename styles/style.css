@@ -54,3 +54,49 @@ li {
   color: white;
   border: 2px solid #1c2042;
 }
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card{
+  width: 24rem;
+  max-width: 30rem;
+  min-height: 20rem;
+  background-color: #1c2042;
+  color: white;
+  padding:0.5rem 1.25rem;
+  border-radius: 10px;
+}
+
+.title{
+text-align: center;
+margin: 1rem auto;
+font-size: 1.5rem;
+}
+
+label,input{
+  display: block;
+  width: 100%;
+  margin: 0.5rem auto;
+}
+
+label{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+input{
+  padding: 0.5rem 0.8rem;
+}
+
+.btn-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+}
